@@ -1,0 +1,25 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<HTML>
+<TABLE WIDTH=100% CELLPADDING=10> 
+<TD>
+<a href='/'>Back to main menu</a><br>
+
+<br><b>Change the user for performance testing </b><form name='shift' action='/random' method='post'><SELECT name='USER' size='1' <% selected.User1 %>><option value='User1'>User1<option value='User2' <% selected.User2 %>>User2</select>&nbsp;<input type='submit' value='Change'/></form>
+<br><b>PMID reference:</b> <% pmid %>
+<br><b>Avancement:</b> <% cc %>/<% ct %><br><br>
+
+<TABLE WIDTH=100%> 
+<TD WIDTH=30%>
+<% text %><br>
+
+</TD><TD WIDTH=15%>
+<form name='next' action='/random' method='post'><center><% es %></center></TD>
+
+<TD align=left ROWSPAN=2 WIDTH=15% style='vertical-align:top'><center><h2>Save and next</h2>
+<INPUT border=0 src='http://127.0.0.1:3000/images/next.png' type=image Value=submit align='middle'><br></form>
+
+</TR>
+</TABLE>
+</TD>
+</TABLE></HTML>

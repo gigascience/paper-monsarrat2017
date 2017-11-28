@@ -1,0 +1,30 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<TABLE WIDTH=100% CELLPADDING=10> 
+<TH></TH>
+<TD>
+<h2></h2>
+<big><big><big><big><b>Trends of effect sizes in biomedical research, 1990-2015</b></big></big></big>
+
+<h2>Preprocessing of data</h2>
+<a href="/mesh">Step 1 - Load MeSH 2017 descriptors</a><br>
+<a href="/clear">Step 2 - Clear and initialize all files</a><br>
+<a href="/downloadPMC">Step 4 - Download PMC XML data using the extracted PMID list with both an ES and a link toward PMC</a><br>
+
+<br><h2>Data mining</h2>
+<a href="/extract">Step 3 - Extract ES values from PubMed XML data files</a><br>
+<a href="/extractPMC">Step 5 - Extract ES values from PMC XML data files</a><br>
+<a href="/check_fft">Step 6 - Extracted PMID were checked for the existence of a free full-text</a><br>
+<a href="/check_countries">Step 7 - Extracted PMID were checked for the existence of a country affiliation using MapAffil</a><br>
+<a href="/extract_samplesize">Step 8 - Extracted PMID were checked for the existence of sample sizes</a><br>
+
+
+<br><h2>Performance testing</h2>
+<a href="/random">Step 9 - Performance testing of the data mining algorithm by two reviewers</a><br>
+<a href="/sensspe">Step 10 - Compute sensitivity and specificity of the algorithm</a><br>
+
+<br><h2>Data analysis</h2>
+<a href="/meshes">Step 11a - Extract MeSH descriptors from [C] and [G] branches</a><br>
+<a href="/meshperio">Step 11b - Extract MeSH descriptors linked to periodontology</a><br>
+
+</TD></TABLE>

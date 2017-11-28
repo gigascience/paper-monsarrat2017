@@ -1,0 +1,30 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<HTML>
+<body style="background-color:white">
+<TABLE WIDTH=100% CELLPADDING=10> 
+<TH></TH>
+<TD>
+<a href='/'>Back to main menu</a><br>
+
+<h2></h2>
+<big><big><big><big><b>Trends of effect sizes in biomedical research, 1990-2015</b></big></big></big>
+
+<br><br>Version dated <% gmtime %> <BR><BR><INPUT BORDER=0 SRC='http://127.0.0.1:3000/images/print.png' HEIGHT='80px' TYPE=IMAGE VALUE='IMPRIMER' ONCLICK='window.print();'></INPUT>
+
+<h2>Specificity and Sensitivity</h2>
+<table><tr><td>Specificity for abstracts is <% speab %></td></tr>
+<tr><td>Sensitivity for abstracts is <% sensab %></td></tr></table><br>
+<table><tr><td>Specificity for ESs is <% spees %></td></tr>
+<tr><td>Sensitivity for ESs is <% senses %></td></tr></table>
+
+<h2>Kappa</h2>
+<table><tr><td>Kappa value for abstracts is</td><td><b> <% kappaab %> </b></td><td bgcolor="<% colorab %>"><b> <% nameab %></b></td></tr></table>
+<table><tr><td>Kappa value for ESs is</td><td><b> <% kappaes %> </b></td><td bgcolor="<% colores %>"><b> <% namees %></b></td></tr></table>
+
+<h2>Summary table</h2>
+</big></big></big></big><%  table %>
+
+</TD></TABLE>
+</body>
+</HTML>
